@@ -14,10 +14,10 @@ https://github.com/JorgeCarrascoBarbero/CasaOS-AppStore/archive/refs/heads/main.
  From command line, run:
 
 ```shell
-casaos-cli app-management register app-store [your zip file link]
+casaos-cli app-management register app-store https://github.com/JorgeCarrascoBarbero/CasaOS-AppStore/archive/refs/heads/main.zip
 ```
 If your CasaOS is on a different port than `80` use the below instead:
 
 ```shell
-casaos-cli app-management register app-store [your zip file link] -u localhost:[your port]
+casaos-cli app-management register app-store https://github.com/JorgeCarrascoBarbero/CasaOS-AppStore/archive/refs/heads/main.zip -u localhost:[your port]
 ```
