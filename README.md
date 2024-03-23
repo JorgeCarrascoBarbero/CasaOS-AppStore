@@ -2,7 +2,16 @@
 
 ## Add to CasaOS
 
-To add this app store from command line, run:
+To add this app store:
+
+## App Store URL
+
+```text
+https://github.com/JorgeCarrascoBarbero/CasaOS-AppStore/archive/refs/heads/main.zip
+```
+
+
+ From command line, run:
 
 ```shell
 casaos-cli app-management register app-store [your zip file link]
